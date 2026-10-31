@@ -27,6 +27,6 @@ app.get("/api/health", async (_req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(3107, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
